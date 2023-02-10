@@ -12,5 +12,5 @@
 
 This workflow is adaptable and can be changed as necessary depending on the particular needs and limitations of the project. Clear communication, teamwork, regular reports on progress, and reviews to make sure the project stays on track and achieves its objectives are essential to success.
 
-[![picture alt](https://i.postimg.cc/tTyFTf9S/Blue-Aesthetic-Professional-Gantt-Graph.png)]
+![picture alt](https://i.postimg.cc/tTyFTf9S/Blue-Aesthetic-Professional-Gantt-Graph.png)
 
