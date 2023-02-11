@@ -31,5 +31,15 @@ Other tasks such as documentation,paper collection, related work analysis and pr
 
 Regular communication and collaboration among the team members will be ensured through GitHub Desktop so that the project progresses smoothly and efficiently.
 
+---------------------------------------------------------------
+| **Domain**                                 | **Team Member**| 
+---------------------------------------------------------------
+| Web Application Development                | Shlok Aggarwal | 
+---------------------------------------------------------------
+| Data Parsing and Analysis                  | Kushagra Palod |
+---------------------------------------------------------------
+| Natural Language Processing Implementation | Archit Jain    |
+---------------------------------------------------------------
+
 
 
