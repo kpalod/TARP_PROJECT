@@ -1,23 +1,12 @@
-# AUTOMATIC FARE GENERATION SYSTEM FOR PARKING LOTS USING RASPBERRY PI
+# HireHive: A Smart Resume Analyser
+
+## Introduction
+A "Smart Resume Analyser" is a tool that automates the process of evaluating and analyzing job applicants' resumes. It is designed to help aspirants to gain skills and save time and effort in the job hunting process by quickly extracting relevant information from resumes and presenting it in an organized and meaningful way.
+
+## Functionality
+*Resume parsing: The tool can quickly scan and extract key information from resumes, such as education, work experience, skills, and certifications.
+*Data analysis: The tool can use algorithms and machine learning models to analyze the extracted data and provide insights into the job applicants' qualifications, strengths, and weaknesses.
+*Matching: The tool can compare the extracted information with the requirements of the job to identify the best-fit candidates and present them to the employer in a ranked order.
+*Reporting: The tool can generate reports that summarize the key findings and provide recommendations on which candidates are the most suitable for the job.
 
 
-## PROBLEM STATEMENT
-In India, owing to a large population, car sales growth hikes every year. This drives the need for strategizing methods for efficient systems that simplifies the management of these automobiles.
-The traditional method of collecting fares often entails distributing slips that detail the entry,
-their collection, and the chosen fare at the time of leaving. This process always takes longer
-at entry because there are fewer workers and more visitors' cars. Regular users find it to be
-quite a task to keep the slips that are thereafter given safe and accessible.
-Our project aims to provide an efficient and automatic fare generation system for parking lots that cater to multitudes of cars on a daily basis.
-
-## PROPOSED METHODOLOGY
-![[Pasted image 20230208125754.png]]
-
-## HARDWARE TOOLS REQUIRED
-- Raspberry PI 3 B+
-- Ultrasonic Sensor
-- Raspberry Camera Module
-
-## SOFTWARE COMPONENTS REQUIRED
-![[Pasted image 20230208130148.png]]                    
-
-![[Pasted image 20230208130224.png]]
