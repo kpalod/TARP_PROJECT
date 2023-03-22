@@ -24,6 +24,14 @@ Finally, it can be said that PyResparser is a helpful tool for recruiters, HR sp
 
 Overall, a smart resume analyser can make it easier and more efficient for the students to evaluate their job prospects.
 
+## *Description About Dataset*
+- The Kaggle dataset [Resume Dataset] (https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset?resource=download) contains a collection of resumes in PDF format. 
+- Here are some details about the dataset:
+  - The dataset contains 1,420 resumes in PDF format.
+  - The resumes belong to candidates from various fields, such as software engineering, marketing, finance, healthcare, and more
+  - The resumes are labeled with the candidate's name and the category of the resume (such as "Software Engineer", "Sales Manager", "Data Analyst", etc.).
+- We are using this dataset for various NLP tasks related to resume parsing and analysis, such as Named Entity Recognition (NER), Text Classification, Information Extraction, and more. 
+
 ## *Tools used*
 - Python
 - NLP 
