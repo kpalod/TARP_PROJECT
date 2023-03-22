@@ -12,6 +12,9 @@ A "Smart Resume Analyser" is a tool that automates the process of evaluating and
 PyResparser employs NLP methods like Named Entity Recognition (NER) to extract structured data from the candidate's resume, including their name, email, phone number, educational background, employment history, and abilities. Spacy library is used by PyResparser for NER.
 PyResparser delivers the findings in JSON format, which can be utilised for additional analysis or storage, after the structured data has been extracted.
 
+- Data Analysis and Visualization: The application analyses the retrieved data using statistical approaches to produce insights like a list of the most commonly stated abilities, a summary of work history, and educational background. The application displays the analysis findings as interactive graphs and charts. 
+Finally, it can be said that PyResparser is a helpful tool for recruiters, HR specialists, and job portals to automate resume screening and candidate shortlisting since it parses resumes and extracts structured information using a combination of external libraries and NLP techniques.
+
 
 ## *Functionality*
 - Resume parsing: The tool can quickly scan and extract key information from resumes, such as education, work experience, skills, and certifications.
