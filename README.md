@@ -33,13 +33,14 @@ Overall, a smart resume analyser can make it easier and more efficient for the s
 - We are using this dataset for various NLP tasks related to resume parsing and analysis, such as Named Entity Recognition (NER), Text Classification, Information Extraction, and more. 
 
 ## *Tools used*
-- Python
+- Python Flask - a micro web framework written in Python used for developing the backend of the application.
 - NLP 
-  - Spacy Framework
-- Visual Studio Code
-- GitHub Desktop
-- Dblp
-- Obsidian
+  - Spacy Framework : a popular Python library used for natural language processing tasks such as tokenization, stemming, and named entity recognition.
+- Visual Studio Code : for writing and debugging code. VS Code provides a lot of extensions and other tools for streamlined developement of an application.
+- Chart.js - a JavaScript library used to create interactive charts and graphs to visualize the analysis results.
+- GitHub Desktop : Github desktop client provides a GUI based interface for commiting changes to the remote repository and makes solving issues and pull requests easy.
+- Dblp : For finding relevant latest papers as per the scope of the course defined.
+- Obsidian : A markdown editor used for editing .md files and creating documentation of the project. 
 
 ## *Workflow division*
 We will divide the tasks among the team members based on their strong points. However every team member would help other members in their tasks if possible and team members would explain their work to others so that everyone learns the problem better and can help come up with a solution whenever required. 
