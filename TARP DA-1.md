@@ -10,7 +10,7 @@
 - Iteration and refinement: Up until the project is finished, the team keeps working on it, repeating the development, code review, testing, and bug-fixing cycles.
 - Project completion: The team conducts a final evaluation of the project and archives all related materials.
 
-This workflow is adaptable and can be changed as necessary depending on the particular needs and limitations of the project. Clear communication, teamwork, regular reports on progress, and reviews to make sure the project stays on track and achieves its objectives are essential to success.
+This workflow is adaptable and can be changed as necessary depending on the particular needs and limitations of the project. Clear communication, teamwork, regular reports on progress, and constant reviews to make sure the project stays on track and achieves its objectives are essential to success.
 
 ### Tools to be used
 - GitHub Desktop
