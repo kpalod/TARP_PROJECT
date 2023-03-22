@@ -69,5 +69,8 @@ Regular communication and collaboration among the team members will be ensured t
 
 [4] Nimbekar, R., Patil, Y., Prabhu, R., & Mulla, S. (2019, December). Automated resume evaluation system using NLP. In 2019 International Conference on Advances in Computing, Communication and Control (ICAC3) (pp. 1-4). IEEE.
 
+[5] Yadalam, T. V., Gowda, V. M., Kumar, V. S., Girish, D., & Namratha, M. (2020, June). Career recommendation systems using content based filtering. In 2020 5th International Conference on Communication and Electronics Systems (ICCES) (pp. 660-665). IEEE.
+
+[6] Kolhe, H., Chaturvedi, R., Chandore, S., Sakarkar, G., & Sharma, G. (2023). Career Path Prediction System Using Supervised Learning Based on Users’ Profile. In Computational Intelligence: Select Proceedings of InCITe 2022 (pp. 583-595). Singapore: Springer Nature Singapore.
 
 
