@@ -39,7 +39,7 @@ def show_pdf(file_path):
     pdf_display = F'<iframe src="data:application/pdf;base64,{base64_pdf}" width="700" height="1000" type="application/pdf"></iframe>'
     st.markdown(pdf_display, unsafe_allow_html=True)
 
-connection = pymysql.connect(host='localhost',user='root',password='',db='sra')
+connection = pymysql.connect(host='localhost',user='root',password='',db='HireHive')
 cursor = connection.cursor()
 
 def insert_data(name,email,res_score,timestamp,no_of_pages,reco_field,cand_level,skills,recommended_skills,courses):
@@ -51,7 +51,7 @@ def insert_data(name,email,res_score,timestamp,no_of_pages,reco_field,cand_level
     connection.commit()
 
 st.set_page_config(
-   page_title="Smart Resume Analyzer",
+   page_title="Hire Hive",
    page_icon='./Logo/SRA_Logo.ico',
 )
 
