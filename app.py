@@ -55,6 +55,38 @@ st.set_page_config(
    page_icon='./Logo/SRA_Logo.ico',
 )
 
+def run():
+    st.title("HireHive")
+    st.sidebar.markdown("# Choose User")
+    activities = ["Normal User", "Admin"]
+    choice = st.sidebar.selectbox("Choose among the given options:", activities)
+    # link = '[©Developed by Spidy20](http://github.com/spidy20)'
+    # st.sidebar.markdown(link, unsafe_allow_html=True)
+    img = Image.open('./Logo/SRA_Logo.jpg')
+    img = img.resize((250,250))
+    st.image(img)
+
+    # Create the DB
+    db_sql = """CREATE DATABASE IF NOT EXISTS SRA;"""
+    cursor.execute(db_sql)
+
+    # Create table
+    DB_table_name = 'user_data'
+    table_sql = "CREATE TABLE IF NOT EXISTS " + DB_table_name + """
+                    (ID INT NOT NULL AUTO_INCREMENT,
+                     Name varchar(100) NOT NULL,
+                     Email_ID VARCHAR(50) NOT NULL,
+                     resume_score VARCHAR(8) NOT NULL,
+                     Timestamp VARCHAR(50) NOT NULL,
+                     Page_no VARCHAR(5) NOT NULL,
+                     Predicted_Field VARCHAR(25) NOT NULL,
+                     User_level VARCHAR(30) NOT NULL,
+                     Actual_skills VARCHAR(300) NOT NULL,
+                     Recommended_skills VARCHAR(300) NOT NULL,
+                     Recommended_courses VARCHAR(600) NOT NULL,
+                     PRIMARY KEY (ID));
+                    """
+    cursor.execute(table_sql)
 
 
 
