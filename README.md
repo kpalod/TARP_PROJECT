@@ -85,16 +85,17 @@ Regular communication and collaboration among the team members will be ensured t
   
 
 ## *References*
-[1] Tejaswini, K., Umadevi, V., Kadiwal, S. M., & Revanna, S. (2022). Design and development of machine learning based resume ranking system. Global Transitions Proceedings, 3(2), 371-375.
 
-[2] Garg, S., Sinha, S., Kar, A. K., & Mani, M. (2022). A review of machine learning applications in human resource management. International Journal of Productivity and Performance Management, 71(5), 1590-1610.
+[1] Pokharel, Prasuna. (2022). RESUME PARSER USING NLP. 10.13140/RG.2.2.10323.25127/1. 
 
-[3] Kandji, A. K., & Ndiaye, S. (2022, February). Design and realization of an NLP application for the massive processing of large volumes of resumes. In 2022 IEEE Multi-conference on Natural and Engineering Sciences for Sahel's Sustainable Development (MNE3SD) (pp. 1-5). IEEE.
+[2] Rawat, Aakankshu & Malik, Siddharth & Rawat, Seema & Kumar, Deepak & Kumar, Praveen. (2021). A Systematic Literature Review (SLR) On The Beginning of Resume Parsing in HR Recruitment Process & SMART Advancements in Chronological Order. 10.21203/rs.3.rs-570370/v1. 
 
-[4] Nimbekar, R., Patil, Y., Prabhu, R., & Mulla, S. (2019, December). Automated resume evaluation system using NLP. In 2019 International Conference on Advances in Computing, Communication and Control (ICAC3) (pp. 1-4). IEEE.
+[3] Kolhe, H., Chaturvedi, R., Chandore, S., Sakarkar, G., & Sharma, G. (2023). Career Path Prediction System Using Supervised Learning Based on Users’ Profile. In Computational Intelligence: Select Proceedings of InCITe 2022 (pp. 583-595). Singapore: Springer Nature Singapore.
 
-[5] Yadalam, T. V., Gowda, V. M., Kumar, V. S., Girish, D., & Namratha, M. (2020, June). Career recommendation systems using content based filtering. In 2020 5th International Conference on Communication and Electronics Systems (ICCES) (pp. 660-665). IEEE.
+[4] Yadalam, T. V., Gowda, V. M., Kumar, V. S., Girish, D., & Namratha, M. (2020, June). Career recommendation systems using content based filtering. In 2020 5th International Conference on Communication and Electronics Systems (ICCES) (pp. 660-665). IEEE.
 
-[6] Kolhe, H., Chaturvedi, R., Chandore, S., Sakarkar, G., & Sharma, G. (2023). Career Path Prediction System Using Supervised Learning Based on Users’ Profile. In Computational Intelligence: Select Proceedings of InCITe 2022 (pp. 583-595). Singapore: Springer Nature Singapore.
+[5] Tejaswini, K., Umadevi, V., Kadiwal, S. M., & Revanna, S. (2022). Design and development of machine learning based resume ranking system. Global Transitions Proceedings, 3(2), 371-375.
 
+[6] Nimbekar, R., Patil, Y., Prabhu, R., & Mulla, S. (2019, December). Automated resume evaluation system using NLP. In 2019 International Conference on Advances in Computing, Communication and Control (ICAC3) (pp. 1-4). IEEE.
 
+[7] Garg, S., Sinha, S., Kar, A. K., & Mani, M. (2022). A review of machine learning applications in human resource management. International Journal of Productivity and Performance Management, 71(5), 1590-1610.
