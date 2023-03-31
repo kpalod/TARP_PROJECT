@@ -63,7 +63,9 @@ Regular communication and collaboration among the team members will be ensured t
 ## *Literature Survey*
 |**S. No.**|**Name**|**Methodology**                            | **Advantages**      |**Drawbacks**            | 
 |----------|--------|-------------------------------------------|---------------------|-------------------------|
-
+|1         |RESUME PARSER USING NLP| Machine learning-based approach to automatically extract and parse information from resumes. It uses Natural Language Processing (NLP) techniques and the development of a web application to implement the resume parser.| By automating the screening process, a resume parser can help reduce the risk of bias or subjective decision-making, resulting in a more objective and fair hiring process.
+Depending on the specific needs of the organization or individual using the resume parser, it can be customized to parse resumes for specific fields, job titles, or industries.|Resume parsing algorithms have difficulty accurately parsing resumes that have unusual formatting, unconventional layouts, or use non-standard fonts. It is also possible for the parser to misinterpret certain information or miss important details altogether, leading to errors or omissions in the parsed data. Depending on the complexity of the resume parser and the amount of data it needs to process, it may require a significant amount of computational resources or time to operate effectively.| 
+  
 
 ## *References*
 [1] Tejaswini, K., Umadevi, V., Kadiwal, S. M., & Revanna, S. (2022). Design and development of machine learning based resume ranking system. Global Transitions Proceedings, 3(2), 371-375.
