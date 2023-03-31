@@ -60,6 +60,11 @@ Regular communication and collaboration among the team members will be ensured t
 | Data Parsing and Analysis                  | Kushagra Palod |
 | Natural Language Processing Implementation | Archit Jain    |
 
+## *Literature Survey*
+|**S. No.**|**Name**|**Methodology**                            | **Advantages**      |**Drawbacks**            | 
+|----------|--------|-------------------------------------------|---------------------|-------------------------|
+
+
 ## *References*
 [1] Tejaswini, K., Umadevi, V., Kadiwal, S. M., & Revanna, S. (2022). Design and development of machine learning based resume ranking system. Global Transitions Proceedings, 3(2), 371-375.
 
