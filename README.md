@@ -100,6 +100,8 @@ Table below shows an example
 
 The "Resume Name" column lists the name of the resume file that was analyzed. The "Resume Score" column provides a numerical score out of 100 for each resume, based on the analysis performed by the project. Finally, the "Resume Remarks" column provides concise, professional feedback on each resume, highlighting areas of strength and areas for improvement.
 
+![High Level Architecture](https://github.com/kpalod/TARP_PROJECT/blob/main/Logo/diagram.png)
+
 The project’s ability to provide remarks and tips based on the uploaded resume is a valuable feature for job seekers. It allows them to identify specific areas where they can improve their resume to increase their chances of being hired. The admin side of the project, which stores all resumes and tracks the most commonly used features, provides valuable insights for employers. This can help them identify trends in job applicants’ resumes and tailor their recruitment strategies accordingly.
 
 ## Conclusion
