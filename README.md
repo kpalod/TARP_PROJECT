@@ -1,5 +1,17 @@
 # *HireHive: A Smart Resume Analyser*
 
+## How to run the code
+- Clone the repository in your system
+- Make sure python is installed in your system
+- Install the required modules
+```
+pip install requirements.txt
+``` 
+- Run using streamlit
+```
+streamlit run app.py
+```
+
 ## Introduction
 A "Smart Resume Analyser" is a tool that automates the process of evaluating and analyzing job applicants' resumes. It is designed to help aspirants to gain skills and save time and effort in the job hunting process by quickly extracting relevant information from resumes and presenting it in an organized and meaningful way.
 
@@ -70,19 +82,27 @@ Regular communication and collaboration among the team members will be ensured t
 |5 | Design and Development of Machine Learning based Resume Ranking System | The paper proposes a Resume Screening System based on natural language processing (NLP) methods and K-Nearest Neighbors (KNN) algorithm.The KNN algorithm is used to pick and rank the resumes based on job descriptions in huge quantities. The system evaluates the applicant's skills based on a test, ensuring that the resumes uploaded by the applicant are genuine and the applicant is truly knowledgeable about the skills. | The proposed system uses NLP methods and KNN algorithm to automate the resume screening process, which saves time and effort for the recruitment team. The system evaluates the applicant's skills based on a test, ensuring that the resumes uploaded by the applicant are genuine and the applicant is truly knowledgeable about the skills. | The system relies heavily on the accuracy of NLP methods, which may not always be reliable, especially when dealing with complex sentences or language barriers. The paper does not discuss the potential biases that may be present in the system, which may lead to discrimination against certain groups of applicants | 
 |6 | Automated resume evaluation system using NLP | The collected resumes were preprocessed to remove unnecessary information and extract relevant features, such as personal information, education, skills, experience, and achievements. This was done using natural language processing (NLP) techniques. | The system is designed to evaluate resumes based on multiple criteria such as work experience, education, skills, and achievements, which can provide a holistic evaluation of the candidate. The system has been evaluated on a dataset of 100 resumes and achieved an accuracy of 80%, which indicates the effectiveness of the proposed approach. | The paper did not perform a comprehensive evaluation of the proposed system's effectiveness in real-world scenarios. Only a small set of resumes was used to evaluate the system's performance, which may not be representative of a broader range of resumes. The system only considered a limited set of features, such as experience and education, in the evaluation of resumes. This may lead to overlooking other relevant information that could be important for a particular job position. |
 |7 | A review of machine learning applications in human resource management. | The methodology used in this paper is a systematic literature review approach, which involves searching for and analyzing published papers related to ML applications in HRM. The approach used in this paper allows for a comprehensive and detailed analysis of the current state of research on this topic. | The paper presents a structured and organized framework that classifies the different machine learning techniques and applications in human resource management, making it easier to understand and navigate the complex landscape of the field. | The paper focuses more on the applications of machine learning in HRM and does not provide in-depth analysis or evaluation of specific studies or models.The paper could have benefited from a more systematic literature review approach to ensure all relevant studies were included and evaluated in a structured manner. | 
+## Demo Video Link
+[Link To Google Drive Video](https://drive.google.com/file/d/1CSNeQPnVg3CEWx7NaR7j_zh9-vEQMEM_/view)
+## Results and Discussions
+The resume analyzer project utilizes natural language processing (NLP) techniques, particularly named entity recognition (NER) using the spacy framework in Python. The spacy framework is a powerful and widely used library for NLP tasks. The NER model in the project is trained to recognize and extract entities such as personal details, educational qualifications, work experience, skills, and achievements from the resumes. The accuracy of the NER model is a crucial factor that determines the quality of the extracted information. The spacy framework provides an accuracy report that shows the precision, recall, and F1 score of the model. These metrics are calculated based on the number of true positives, false positives, and false negatives. Based on the presence or absence of specific entities in the extracted information, such as work experience, education, skills,and achievements, the project’s scoring feature assigns scores. Depending on how crucial an entity is to the job opening, the weights given to each one can be changed. The user is then given feedback based on the scores regarding the professionalism and applicability of their resume to the job posting. The project’s remarks and tips feature employs a machine learning algorithm that analyses the extracted data and gives the user feedback on how to strengthen their resume. A dataset of resumes and feedback from experienced recruiters are used to train the algorithm. To give the user personalised feedback, it makes use of a variety of NLP techniques, including sentiment analysis and text classification. 
 
+Table below shows an example
 
+| **Resume Name**   | **Resume Score**| **Remarks**                                          |
+|-------------------|---------------- | -----------------------------------------------------|
+| John Doe.pdf      | 75/100          | Add more quantifiable achievements and skills.       |
+| Jane Smith.pdf    | 90/100          | Well-organized and highlights relevant information.  |
+| Mark Johnson.pdf  | 65/100          | More focus needed on work experience and education.  |
+| Sarah Lee.pdf     | 85/100          | Relevant details on skills and achievements.         |
+| Michael Brown.pdf | 70/100          | More focus needed on education and skills.           |
 
+The "Resume Name" column lists the name of the resume file that was analyzed. The "Resume Score" column provides a numerical score out of 100 for each resume, based on the analysis performed by the project. Finally, the "Resume Remarks" column provides concise, professional feedback on each resume, highlighting areas of strength and areas for improvement.
 
+The project’s ability to provide remarks and tips based on the uploaded resume is a valuable feature for job seekers. It allows them to identify specific areas where they can improve their resume to increase their chances of being hired. The admin side of the project, which stores all resumes and tracks the most commonly used features, provides valuable insights for employers. This can help them identify trends in job applicants’ resumes and tailor their recruitment strategies accordingly.
 
-
-
-
-
- 
-
-
-  
+## Conclusion
+The results have shown that our model can generate a predictive score and categorize the resume uploaded by the candidate. The HireHive project has the potential to be a valuable tool for both job seekers and employers. Its ability to provide feedback and insights based on the uploaded resume can help job seekers improve their chances of being hired, while its tracking and visualization features can help employers optimize their recruitment strategies. One potential limitation of the project is that it relies on NER, which may not accurately capture all relevant information in a resume. Additionally, the tool’s ability to compare resumes to others in its database may be limited by the quality and size of its dataset. However, these limitations could potentially be addressed through continued development and improvement of the tool. 
 
 ## *References*
 
