@@ -4,9 +4,9 @@
 - Clone the repository in your system
 - Make sure python is installed in your system
 - Install the required modules
-'''
+```
 pip install requirements.txt
-'''
+``` 
 
 ## Introduction
 A "Smart Resume Analyser" is a tool that automates the process of evaluating and analyzing job applicants' resumes. It is designed to help aspirants to gain skills and save time and effort in the job hunting process by quickly extracting relevant information from resumes and presenting it in an organized and meaningful way.
