@@ -27,6 +27,7 @@ PyResparser delivers the findings in JSON format, which can be utilised for addi
 - Data Analysis and Visualization: The application analyses the retrieved data using statistical approaches to produce insights like a list of the most commonly stated abilities, a summary of work history, and educational background. The application displays the analysis findings as interactive graphs and charts. 
 Finally, it can be said that PyResparser is a helpful tool for recruiters, HR specialists, and job portals to automate resume screening and candidate shortlisting since it parses resumes and extracts structured information using a combination of external libraries and NLP techniques.
 
+![High Level Architecture](https://github.com/kpalod/TARP_PROJECT/blob/main/Logo/kuxi%20chart.png)
 
 ## *Functionality*
 - Resume parsing: The tool can quickly scan and extract key information from resumes, such as education, work experience, skills, and certifications.
