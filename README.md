@@ -41,6 +41,54 @@ def tokenize(text):
             cache[substring] = subtokens
     return tokens
 ```    
+### Keyword extraction Algorithm
+- Import the necessary NLTK libraries and modules
+- Read in the text file
+- Tokenize the text into individual words
+- Remove any stop words (common words that do not add much meaning to the text) using NLTK's stopword corpus
+- Perform part-of-speech (POS) tagging to identify nouns, verbs, adjectives, and adverbs
+- Extract the lemmas of the identified words using NLTK's WordNetLemmatizer
+- Calculate the frequency of each lemma in the text
+- Sort the lemmas by frequency in descending order
+- Select the top n lemmas (e.g. top 10) as the keywords for the text
+
+```
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from nltk.stem import WordNetLemmatizer
+
+# read in the text file
+with open('input.txt', 'r') as f:
+    text = f.read()
+
+# tokenize the text into individual words
+words = word_tokenize(text)
+
+# remove stop words
+stop_words = set(stopwords.words('english'))
+words = [word for word in words if word.lower() not in stop_words]
+
+# perform POS tagging
+pos_tags = nltk.pos_tag(words)
+
+# extract lemmas of identified words
+lemmatizer = WordNetLemmatizer()
+lemmas = [lemmatizer.lemmatize(word, pos=get_wordnet_pos(pos_tag)) for word, pos_tag in pos_tags]
+
+# calculate frequency of each lemma
+freq_dist = nltk.FreqDist(lemmas)
+
+# sort lemmas by frequency in descending order
+sorted_lemmas = sorted(freq_dist.items(), key=lambda x: x[1], reverse=True)
+
+# select top n lemmas as keywords
+top_n = 10
+keywords = [lemma[0] for lemma in sorted_lemmas[:top_n]]
+
+# print the keywords
+print(keywords)
+````
 
 ![High Level Architecture](https://github.com/kpalod/TARP_PROJECT/blob/main/Logo/kuxi%20chart.png)
 
